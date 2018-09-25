@@ -1,0 +1,25 @@
+:root {
+    --background-mysql: #070a69;
+    --background-oracle: #970004;
+    --cor-fonte: #c0c0c0;
+    --font-size: 15px;
+}
+
+h2 {
+    font-size: var(--font-size);
+}
+
+.oracle-content {
+    background-color: var(--background-oracle);
+    color: var(--cor-fonte);
+}
+
+.mysql-content {
+    background-color: var(--background-mysql);
+    color: var(--cor-fonte);
+}
+
+.btn-lg {
+    background-color: black !important;
+    color: white !important;
+}
